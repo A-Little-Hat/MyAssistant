@@ -1,0 +1,9 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500;1,900&display=swap');
+
+.trans{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

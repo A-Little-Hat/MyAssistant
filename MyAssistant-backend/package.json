@@ -1,0 +1,19 @@
+{
+    "name": "myassistant",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.17.3",
+      "express-fileupload": "^1.3.1",
+      "firebase": "^9.6.10"
+    }
+  }
+  

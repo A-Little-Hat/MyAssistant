@@ -1,0 +1,20 @@
+.fileMainDiv{
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #bbec34, #00f867); */
+    background: rgb(47,6,142);
+    background: linear-gradient(180deg, rgba(47,6,142,1) 0%, rgba(71,14,204,1) 33%, rgba(164,127,247,1) 57%, rgb(255, 255, 255) 80%);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+ 
+  @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    }
